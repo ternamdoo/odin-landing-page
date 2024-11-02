@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    /* margin: 0 50px; */
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    /* height: 100%; */
+}
