@@ -93,3 +93,43 @@ button {
     color: #E5E7EB;
     flex-shrink: 0;
 }
+
+/* the info section styles starts here */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.info .main-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.info .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px 48px;
+}
+
+.info .container .item {
+    width: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;    
+}
+
+
+.info .container .item .image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
