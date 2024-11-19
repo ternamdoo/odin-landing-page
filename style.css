@@ -84,6 +84,7 @@ button {
     padding: 8px 24px;
     font-size: 18px;
     font-weight: 700;
+    border-style: none;
 }
 
 .hero .image {
@@ -151,7 +152,37 @@ button {
 }
 
 .quote .author {
-    font-weight: bold;
+    font-weight: 700;
     display: flex;
     justify-content: flex-end;
+}
+
+/* the call to action style starts hare */
+.call-to-action {
+    padding: 48px 100px;
+    color: #F9FAF8;
+}
+
+.call-to-action .container {
+    background-color: #3882f6;
+    padding: 24px 48px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.call-to-action .container .call .subject {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-to-action .container .call .message {
+    font-size: 18px;
+}
+
+.call-to-action .container button {
+    border-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
 }
