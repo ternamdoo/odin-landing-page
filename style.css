@@ -186,3 +186,11 @@ button {
     border-color: #F9FAF8;
     border: 2px solid #F9FAF8;
 }
+
+/* the footer style starts here */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 24px;
+    text-align: center;
+}
