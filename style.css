@@ -92,7 +92,6 @@ button {
     background-color: grey;
     font-size: 18px;
     color: #E5E7EB;
-    flex-shrink: 0;
 }
 
 /* the info section styles starts here */
@@ -178,6 +177,7 @@ button {
 }
 
 .call-to-action .container button {
+    align-self: center;
     border-color: #F9FAF8;
     border: 2px solid #F9FAF8;
 }
