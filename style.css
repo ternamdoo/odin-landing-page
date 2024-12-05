@@ -158,8 +158,10 @@ button {
 }
 
 .call-to-action .container {
+    width: 600px;
+    margin: 0 auto;
     background-color: #3882f6;
-    padding: 24px 48px;
+    padding: 24px 72px;
     border-radius: 5px;
     display: flex;
     align-items: center;
